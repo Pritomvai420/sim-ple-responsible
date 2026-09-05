@@ -4,8 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsibe</title>
+    <style>
+        body{
+            border: 3px solid greenyellow;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+        .img-container{
+            display: flex;
+        }
+        .img-container img{
+            width: 100%;
+        }
+        .img-container div{
+            width: 50%;
+        } 
+         @media screen and (max-width:576px) {
+            .img-container{
+                flex-direction: column;
+            }
+            .img-container div{
+                width: 100%;
+            }
+            
+         }
+
+    </style>
 </head>
 <body>
+    <header>
+        <ol>
+        <li>Responsibe</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        </ol>
+        
+    </header>
+    <main>
+        <div class="img-container">
+            <div>
+                <img src="images/healthy-011636373981 (1).avif" alt="">
+            </div>
+            <div>
+                <img src="images/tiger.jpg" alt="">
+            </div>
+        </div>
+          
+    </main>
     
 </body>
 </html>
